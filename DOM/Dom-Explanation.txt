@@ -1,0 +1,21 @@
+getelementbyid
+getelementbyclass
+getAttribute()- it's a function so need to pass the variables
+setAttribute('class', 'test') This will overwrite the class
+title.style.backgroundcolour = "green"
+title.style.padding = "15px"
+title.textcontent - It will display all the contents
+title.innertext - It will not display invisible content
+title.innerhtml
+document.querryselector('h1') - you can select any css selector - title, .heading, input password, paragraph
+you can store the whole query in a variable
+const myul = document.queryselector('ul')
+myul.queryselector("li")
+document.querryselectorall('li')
+const templist = document.querryselectorall('li') - It is not a pure array...it is node list
+templist[0] = green
+
+tempclasslist = document.getElementbyclassname('list-item') - This will give a HTML collection - you can't use for each
+
+Array.from(tempclasslist)
+const convarray = Array.from(tempclasslist) - now you can use for each
